@@ -17,7 +17,7 @@ choice = input("Do you wish to use the hard-coded Webex token? (y/n) ")
 if choice.lower() == 'n':
     accessToken = "Bearer " + input("Please enter your Webex access token: ")
 else:
-    accessToken = "Bearer ZWYyZGU5MGQtMzhhZC00ZWY1LWE4MTMtNDI0OGQ3MDZiOThhOGVhNWNjMzAtZmI2_PC75_f1a9c66d-3eff-454d-9c51-a4e0afcd770bt"
+    accessToken = "Bearer ZWYyZGU5MGQtMzhhZC00ZWY1LWE4MTMtNDI0OGQ3MDZiOThhOGVhNWNjMzAtZmI2_PC75_f1a9c66d-3eff-454d-9c51-a4e0afcd770b"
 
 # 3. Provide the URL to the Webex Teams room API.
 r = requests.get("https://developer.webex.com/docs/api/v1/rooms/list-rooms",
